@@ -1,0 +1,24 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "Roboto", sans-serif;
+
+  color-scheme: light dark;
+  color: #fff;
+  background-color: #171a25;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
