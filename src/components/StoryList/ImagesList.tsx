@@ -13,14 +13,14 @@ const ImagesList = ({ images }: ImagesListProps) => {
           return (
             <div
               className="w-7 h-12 rounded bg-[#ebebeb;] flex items-center justify-center"
-              key={image}
+              key={image || index}
             >
               <span>+{remainingImagesCount}</span>
             </div>
           );
         } else {
           return (
-            <div className="w-7 h-12 rounded" key={image}>
+            <div className="w-7 h-12 rounded" key={image || index}>
               <img
                 src={image}
                 alt="image"

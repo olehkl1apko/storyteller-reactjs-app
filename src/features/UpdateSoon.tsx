@@ -7,16 +7,7 @@ export const UpdateSoon = () => {
   const capitalizedSlug = slug.charAt(0).toUpperCase() + slug.slice(1);
 
   return (
-    <div
-      style={{
-        fontSize: "28px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        width: "100%",
-        height: "100%",
-      }}
-    >
+    <div className="text-3xl flex items-center justify-center w-full h-full text-slate-500">
       <span>{`${capitalizedSlug} functionality at work. Expect an update soon!`}</span>
     </div>
   );

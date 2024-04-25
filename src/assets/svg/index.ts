@@ -9,6 +9,8 @@ import { Stories } from "./Stories";
 import { UserGuide } from "./UserGuide";
 import { DeleteIcon } from "./DeleteIcon";
 import { EditIcon } from "./EditIcon";
+import { SearchIcon } from "./SearchIcon";
+import { PlusIcon } from "./PlusIcon";
 
 export {
   Schedule,
@@ -22,4 +24,6 @@ export {
   UserGuide,
   EditIcon,
   DeleteIcon,
+  SearchIcon,
+  PlusIcon,
 };

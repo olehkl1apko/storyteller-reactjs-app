@@ -64,7 +64,21 @@
   border: none;
 }
 
-.ant-btn.edit-btn:hover {
+.new-story-btn {
+  font-size: 16px;
+  background-color: #1db56c;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  padding: 0px 16px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.ant-btn.edit-btn:hover,
+.ant-btn.new-story-btn:hover {
   background-color: #8fd8b4 !important;
   color: #fff !important;
 }
