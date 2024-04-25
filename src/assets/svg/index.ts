@@ -7,6 +7,8 @@ import { EngagementUnits } from "./EngagementUnits";
 import { Roles } from "./Roles";
 import { Stories } from "./Stories";
 import { UserGuide } from "./UserGuide";
+import { DeleteIcon } from "./DeleteIcon";
+import { EditIcon } from "./EditIcon";
 
 export {
   Schedule,
@@ -18,4 +20,6 @@ export {
   Roles,
   Stories,
   UserGuide,
+  EditIcon,
+  DeleteIcon,
 };

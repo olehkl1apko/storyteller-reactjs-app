@@ -1,0 +1,74 @@
+.dates {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  line-height: 1.42857;
+  letter-spacing: -0.01em;
+  color: rgba(23, 26, 37, 0.75);
+  white-space: nowrap;
+}
+
+.status {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.27273;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #1c62eb;
+}
+
+.subtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #a3a3a3;
+  white-space: nowrap;
+}
+
+.ant-table-cell {
+  padding: 16px 20px !important;
+}
+
+.ant-btn-icon {
+  margin-inline-end: 0 !important;
+}
+
+.edit-btn {
+  font-size: 12px;
+  background-color: #1db56c;
+  border-radius: 4px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.ant-btn.edit-btn {
+  border: none;
+}
+
+.ant-btn.edit-btn:hover {
+  background-color: #8fd8b4 !important;
+  color: #fff !important;
+}
+
+.ant-table-thead > tr > th {
+  white-space: nowrap;
+}

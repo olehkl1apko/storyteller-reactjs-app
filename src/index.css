@@ -5,7 +5,6 @@
 :root {
   --font-family: "Inter", sans-serif;
   --second-family: "Roboto", sans-serif;
-  --third-family: "Roboto", sans-serif;
 
   color-scheme: light dark;
   height: 100%;
@@ -33,3 +32,7 @@ body {
 button {
   cursor: pointer;
 }
+
+/* .ant-space {
+  width: 100% !important;
+} */
