@@ -31,7 +31,7 @@ const Layout: FC = () => {
         username={username}
       />
       <div className="flex flex-1">
-        <Sidebar isSidebarOpen={isSidebarOpen} />
+        <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
         <section
           className={`h-full w-full xs:bg-white xs:opacity-100 px-5 py-4 xs:px-7 xs:py-4 ${
             isSidebarOpen ? "bg-black opacity-50" : "bg-white"

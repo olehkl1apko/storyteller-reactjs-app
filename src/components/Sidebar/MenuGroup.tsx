@@ -5,9 +5,10 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 interface MenuGroupProps {
   items: IMenuItem[];
+  toggleSidebar: () => void;
 }
 
-export const MenuGroup: FC<MenuGroupProps> = ({ items }) => {
+export const MenuGroup: FC<MenuGroupProps> = ({ items, toggleSidebar }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const [selectedKeys, setSelectedKeys] = useState("/");
@@ -22,6 +23,7 @@ export const MenuGroup: FC<MenuGroupProps> = ({ items }) => {
       mode="vertical"
       onClick={(item) => {
         navigate(item.key);
+        toggleSidebar();
       }}
       selectedKeys={[selectedKeys]}
       items={items}

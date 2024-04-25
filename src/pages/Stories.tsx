@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Space, Typography } from "antd";
 
 import { StoryList } from "@/components";
+import { AddNewStory } from "@/components";
 
 const Stories: FC = () => {
   return (
@@ -17,6 +18,7 @@ const Stories: FC = () => {
       >
         Stories
       </Typography.Title>
+      <AddNewStory />
       <StoryList />
     </Space>
   );

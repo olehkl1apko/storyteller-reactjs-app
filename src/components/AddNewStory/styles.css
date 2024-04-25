@@ -1,0 +1,19 @@
+.new-story-btn {
+  font-size: 16px;
+  background-color: #1db56c;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: absolute;
+  right: 36px;
+  top: 9%;
+}
+
+.ant-btn.new-story-btn:hover {
+  background-color: #8fd8b4 !important;
+  color: #fff !important;
+}

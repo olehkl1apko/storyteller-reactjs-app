@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Button } from "antd";
 
+import "./styles.css";
 import NewStoryModal from "./NewStoryModal";
 import { PlusIcon } from "@/assets/svg";
 
-const NewStoryBtn = () => {
+const AddNewStory = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const handleCreateNewStory = (storyData: any) => {
@@ -32,4 +33,4 @@ const NewStoryBtn = () => {
   );
 };
 
-export default NewStoryBtn;
+export default AddNewStory;
