@@ -33,7 +33,7 @@ const Layout: FC = () => {
       <div className="flex flex-1">
         <Sidebar isSidebarOpen={isSidebarOpen} />
         <section
-          className={`h-full w-full xs:bg-white opacity-0 ${
+          className={`h-full w-full xs:bg-white opacity-100 ${
             isSidebarOpen ? "bg-black opacity-50" : "bg-white"
           }`}
         >
