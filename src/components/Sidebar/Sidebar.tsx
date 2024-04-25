@@ -30,6 +30,7 @@ export const Sidebar: FC<SidebarProps> = ({ isSidebarOpen }) => {
 
   return (
     <section className={`menu-container ${isSidebarOpen ? "open" : ""}`}>
+      <div className="divider" />
       <Menu
         className="menu"
         mode="vertical"
@@ -63,6 +64,17 @@ export const Sidebar: FC<SidebarProps> = ({ isSidebarOpen }) => {
             icon: <Ads />,
             key: "/ads",
           },
+        ]}
+      />
+      <div className="divider" />
+      <Menu
+        className="menu"
+        mode="vertical"
+        onClick={(item) => {
+          navigate(item.key);
+        }}
+        selectedKeys={[selectedKeys]}
+        items={[
           {
             label: "CMSUsers",
             icon: <CMSUsers />,
@@ -78,6 +90,17 @@ export const Sidebar: FC<SidebarProps> = ({ isSidebarOpen }) => {
             icon: <Apps />,
             key: "/apps",
           },
+        ]}
+      />
+      <div className="divider" />
+      <Menu
+        className="menu"
+        mode="vertical"
+        onClick={(item) => {
+          navigate(item.key);
+        }}
+        selectedKeys={[selectedKeys]}
+        items={[
           {
             label: "UserGuide",
             icon: <UserGuide />,
