@@ -18,9 +18,12 @@ export const Header: FC<HeaderProps> = ({
   username,
 }) => {
   return (
-    <header className="flex justify-between items-center py-3 px-7">
-      <div className="flex items-center gap-6">
-        <button onClick={toggleSidebar} className="w-6 h-5">
+    <header className="flex justify-between items-center py-3 px-4 xs:px-7">
+      <div className="flex items-center gap-4 xs:gap-6">
+        <button
+          onClick={toggleSidebar}
+          className="w-6 h-5 xs:hidden xs:w-0 xs:h-0"
+        >
           {isSidebarOpen ? (
             <img src={close} alt="close" />
           ) : (

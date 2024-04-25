@@ -31,7 +31,7 @@ const Layout: FC = () => {
         username={username}
       />
       <div className="flex flex-1">
-        {isSidebarOpen && <Sidebar />}
+        <Sidebar isSidebarOpen={isSidebarOpen} />
         <Outlet />
       </div>
     </div>
